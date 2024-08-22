@@ -15,8 +15,20 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
+header {
+    font-family: "Americana";
+}
+
+header div {
+    background-color: #313022;
+    color: #fbfbf3;
+    font-family: "Americana";
+    font-size: 1.3em;
+}
+
 body {
-    margin: 0
+    margin: 0;
+    background-color: #fbfbf3;
 }
 
 article,
@@ -366,8 +378,8 @@ a {
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
-    color: inherit;
-    background-color: inherit;
+    background-color: #313022;
+    color: #fbfbf3;
     text-align: center;
     cursor: pointer;
     white-space: nowrap
@@ -954,11 +966,15 @@ a {
 .w3-bottom {
     position: fixed;
     width: 100%;
-    z-index: 1
+    z-index: 1;
+    background-color: #313022;
+    color: #fbfbf3;
 }
 
 .w3-top {
-    top: 0
+    top: 0;
+    background-color: #313022;
+    color: #fbfbf3;
 }
 
 .w3-bottom {
@@ -1991,4 +2007,9 @@ a {
 .w3-border-pale-blue,
 .w3-hover-border-pale-blue:hover {
     border-color: #e7ffff !important
+}
+
+footer {
+    background-color: #313022;
+    color: #fbfbf3;
 }
